@@ -1,0 +1,20 @@
+.lista{
+    color: blue;
+    font-size: 18px;
+}
+
+.right {
+    width: 200px;
+    height: 200px;
+    border: 1px black solid;
+}
+
+img {
+    width: 100px;
+    height: 50px;
+    display: none;
+}
+
+.resaltado {
+    color: chartreuse;
+}

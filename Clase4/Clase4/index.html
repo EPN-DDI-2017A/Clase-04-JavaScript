@@ -3,9 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
+    <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
 
+
+<div class="content">
+    <div id="menu" class="left">
+        <ul>
+            <li class="l">Uno</li>
+            <li class="eliminar">
+                <a href="">Dos</a>
+            </li>
+            <li class="eliminar">Tres</li>
+            <li>Cuatro</li>
+            <li class="eliminar">Cinco</li>
+        </ul>
+    </div>
+    <div id="main-content" class="right">
+        <div>
+            <img src="./img/img.jpg" alt="Perro">
+        </div>
+
+        <div>
+            <form action="">
+                <input type="text" name="nombre" value="Chalo">
+                <input type="text" id="apellido" name="apellido">
+
+                <button id="enviar">Enviar</button>
+                <button id="mostrar">Mostrar Imagen</button>
+                <button id="ocultar">Ocultar Imagen</button>
+                <button id="toggle">Mostrar</button>
+            </form>
+        </div>
+    </div>
+</div>
 
 <script src="js/jquery-3.2.1.js"></script>
 <script src="js/main.js"></script>
